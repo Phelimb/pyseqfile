@@ -1,0 +1,6 @@
+[submodule "seq_file"]
+	path = seq_file
+	url = https://github.com/noporpoise/seq_file.git
+[submodule "htslib"]
+	path = htslib
+	url = https://github.com/samtools/htslib
