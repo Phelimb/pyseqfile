@@ -1,6 +1,10 @@
 # import collections
 cimport cseq_file
 
+"""Fast parsing of multiple sequence file formats using seq_file"""
+
+__version__ = '0.0.1'
+
 cdef class Read:
     cdef char* seq
     def __cinit__(self, char* seq):
@@ -16,10 +20,8 @@ cdef class Reader:
         self.cfile = cseq_file.seq_open(fname)
         if self.cfile == NULL:
             raise FileNotFoundError(2, "No such file or directory: '%s'" % filename)
-        # cdef cseq_file.read_t* self.read
         self.read  =cseq_file.seq_read_new()
-            # if self._seq_file is NULL:
-        #     raise MemoryError()        
+    
 
     def __dealloc__(self):
         cseq_file.seq_close(self.cfile)
@@ -31,9 +33,4 @@ cdef class Reader:
 
 
 
-# def read_file(filename):
-
-#     while(cseq_file.seq_read(cfile, read) > 0):
-#         yield read.seq.b
- 
 
