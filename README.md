@@ -4,9 +4,13 @@ Pyseqfile is a python wrapper on top of [seq_file](https://github.com/noporpoise
 
 Currently supports:
 
-SAM & BAM
-FASTA (& gzipped fasta)
-FASTQ (& gzipped fastq)
+FASTA & FASTQ
+
+TO DO:
+
+* SAM & BAM (make seq_file with htslib)
+* gzipped FASTA
+* gzipped FASTQ
 
 # Install
 	
@@ -22,7 +26,7 @@ FASTQ (& gzipped fastq)
 
 # Benchmarks
 
-pyseqfile is *much* faster than Biopython and supports reading from *.gz files directly.
+pyseqfile is *much* faster than Biopython. 
 
 $ python benchmark.py
 
