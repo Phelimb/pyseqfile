@@ -504,7 +504,7 @@ struct __pyx_obj_9pyseqfile_7seqfile_Reader;
 struct __pyx_obj_9pyseqfile_7seqfile___pyx_scope_struct____iter__;
 
 /* "pyseqfile/seqfile.pyx":8
- * __version__ = '0.0.1'
+ * __version__ = '0.0.2'
  * 
  * cdef class Read:             # <<<<<<<<<<<<<<
  *     cdef char* seq
@@ -796,7 +796,7 @@ static const char __pyx_k_iter[] = "__iter__";
 static const char __pyx_k_main[] = "__main__";
 static const char __pyx_k_send[] = "send";
 static const char __pyx_k_test[] = "__test__";
-static const char __pyx_k_0_0_1[] = "0.0.1";
+static const char __pyx_k_0_0_2[] = "0.0.2";
 static const char __pyx_k_UTF_8[] = "UTF-8";
 static const char __pyx_k_close[] = "close";
 static const char __pyx_k_throw[] = "throw";
@@ -807,7 +807,7 @@ static const char __pyx_k_Reader___iter[] = "Reader.__iter__";
 static const char __pyx_k_FileNotFoundError[] = "FileNotFoundError";
 static const char __pyx_k_pyseqfile_seqfile[] = "pyseqfile.seqfile";
 static const char __pyx_k_No_such_file_or_directory_s[] = "No such file or directory: '%s'";
-static PyObject *__pyx_kp_s_0_0_1;
+static PyObject *__pyx_kp_s_0_0_2;
 static PyObject *__pyx_n_s_FileNotFoundError;
 static PyObject *__pyx_kp_s_No_such_file_or_directory_s;
 static PyObject *__pyx_n_s_Reader___iter;
@@ -1582,7 +1582,7 @@ static struct PyModuleDef __pyx_moduledef = {
 #endif
 
 static __Pyx_StringTabEntry __pyx_string_tab[] = {
-  {&__pyx_kp_s_0_0_1, __pyx_k_0_0_1, sizeof(__pyx_k_0_0_1), 0, 0, 1, 0},
+  {&__pyx_kp_s_0_0_2, __pyx_k_0_0_2, sizeof(__pyx_k_0_0_2), 0, 0, 1, 0},
   {&__pyx_n_s_FileNotFoundError, __pyx_k_FileNotFoundError, sizeof(__pyx_k_FileNotFoundError), 0, 0, 1, 1},
   {&__pyx_kp_s_No_such_file_or_directory_s, __pyx_k_No_such_file_or_directory_s, sizeof(__pyx_k_No_such_file_or_directory_s), 0, 0, 1, 0},
   {&__pyx_n_s_Reader___iter, __pyx_k_Reader___iter, sizeof(__pyx_k_Reader___iter), 0, 0, 1, 1},
@@ -1743,11 +1743,11 @@ PyMODINIT_FUNC PyInit_seqfile(void)
   /* "pyseqfile/seqfile.pyx":6
  * """Fast parsing of multiple sequence file formats using seq_file"""
  * 
- * __version__ = '0.0.1'             # <<<<<<<<<<<<<<
+ * __version__ = '0.0.2'             # <<<<<<<<<<<<<<
  * 
  * cdef class Read:
  */
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_version, __pyx_kp_s_0_0_1) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_version, __pyx_kp_s_0_0_2) < 0) __PYX_ERR(0, 6, __pyx_L1_error)
 
   /* "pyseqfile/seqfile.pyx":1
  * # import collections             # <<<<<<<<<<<<<<
